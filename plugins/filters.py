@@ -62,7 +62,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b> Powered by @infotainmentchannels \n\n </b> Here is the result for <b> <u>{message.text} </u></b>",
+                f"<b> Powered by @infotainmentchannels </b> \n\n Here is the result for 👇👇\n <u> {message.text} </u>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
@@ -78,7 +78,7 @@ async def filter(client: Bot, message: Message):
         )
 
         await message.reply_text(
-                f"<b> Powered by @infotainmentchannels \n\n </b> Here is the result for <b> <u>{message.text} </u></b>",
+                f"<b> Powered by @infotainmentchannels </b> \n\n Here is the result for 👇👇 \n <u>{message.text} </u>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
 
