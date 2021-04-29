@@ -2,13 +2,13 @@ class script(object):
 
 
     START_MSG = """ <b>Hi {}
- Join on infotainment media 
+ Join on @InfotainmentMedia 🕊️ 
 </b>"""
 
 
     HELP_MSG = """<b>How to use the bot?? © @TroJanzHEX
 
-\n\n I'm wokrs in infotainment media 🕊️
+\n\n wokrs only in @InfotainmentMedia 🕊️
 
 </b>"""
 
